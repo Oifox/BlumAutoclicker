@@ -17,6 +17,7 @@ Autoclicker for @BlumCryptoBot mini-game
 3. On the surface of the application that opens, right click and from the menu shown select **Inspect element**
 4. Next, as in the screenshot below, go to Network tab and wait until refresh appears in the list of requests
    > It may take time until the current token expires
+   
    > If you don't have requests click in the bot’s web application  3 dots and refresh.
 6. The request response will contain what we need. Copy content to token.json file
 7. ```pip install -r requirements.txt```
