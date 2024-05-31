@@ -15,7 +15,7 @@ Autoclicker for @BlumCryptoBot mini-game
 1. Go to the bot **https://t.me/BlumCryptoBot**
 2. Click "Launch Bloom"
 3. On the surface of the application that opens, right click and from the menu shown select **Inspect element**
-4. Next, as in the screenshot below, go to Network tab and wait until refresh appears in the list of requests
+4. Next, as in the [**Screenshot**](screenshots/1.png), go to Network tab and wait until refresh appears in the list of requests
    > It may take time until the current token expires
    
    > If you don't have requests click in the bot’s web application  3 dots and refresh.
