@@ -9,6 +9,7 @@ Autoclicker for @BlumCryptoBot mini-game
 ## Using example:
 > [!NOTE]
 > In Telegram Desktop you need to enable WebView debugging modes
+
 > ***Settings -> Advanced -> Experimental settings -> Enable WebView inspecting***
 
 1. Go to the bot **https://t.me/BlumCryptoBot**
@@ -18,5 +19,5 @@ Autoclicker for @BlumCryptoBot mini-game
    > It may take time until the current token expires
    > If you don't have requests click in the bot’s web application  3 dots and refresh.
 6. The request response will contain what we need. Copy content to token.json file
-7. ```bash pip install -r requirements.txt```
-8. Run script: ```bash python3 script main.py```
+7. ```pip install -r requirements.txt```
+8. Run script: ```python3 script main.py```
