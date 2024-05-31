@@ -22,3 +22,6 @@ Autoclicker for @BlumCryptoBot mini-game
 6. The request response will contain what we need. Copy content to token.json file
 7. ```pip install -r requirements.txt```
 8. Run script: ```python3 script main.py```
+
+> [!CAUTION]
+> Use script at your own risk!
