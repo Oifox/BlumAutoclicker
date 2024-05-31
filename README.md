@@ -23,5 +23,5 @@ Autoclicker for @BlumCryptoBot mini-game
 7. ```pip install -r requirements.txt```
 8. Run script: ```python3 script main.py```
 #
-> [!CAUTION]
+> [!WARNING]
 > Use script at your own risk!
