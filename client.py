@@ -102,13 +102,14 @@ class ClickerClient(Session):
             if response.status_code == 200:
                 data = response.json()
                 data['points'] = randrange(150, 250)
-                sleep(23)
+                sleep(30)
                 while True:
                     logging.info(f"Submitting game result: {data['points']}")
                     result = self.post(URL_PLAY_CLAIM, json=data)
                     if result.status_code == 200:
                         break
-                    sleep(1)
+                    else:
+                        sleep(1)
                 self.update_balance()
                 logging.info(result.text)
 
